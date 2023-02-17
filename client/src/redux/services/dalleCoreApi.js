@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 export const dalleCoreApi = createApi({
     reducerPath: 'dalleCoreApi',
     baseQuery: fetchBaseQuery({
-        baseUrl: 'http://localhost:8080/api/v1/',
+        baseUrl: 'https://dall-e-6kb4.onrender.com/api/v1/',
         prepareHeaders: (headers) => {
             headers.set('Content-Type', 'application/json');
             
